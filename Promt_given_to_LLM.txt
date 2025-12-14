@@ -1,0 +1,29 @@
+Prompt given to Google Gemini: JSON Lexical Extraction (Hermeneutic Vectoring)
+
+You will be given a literary text.
+Your task is not to interpret, analyse, summarise, or evaluate the text.
+Instead, identify words and short phrases that explicitly appear in the text and are associated with psychological distress, perceptual instability, repression, confinement, or trauma-related discourse, understood in a historical and non-clinical sense.
+Constraints:
+Do not infer emotions, themes, or diagnoses.
+
+
+Do not explain or categorise the words.
+
+
+Do not modernise or normalise historical vocabulary.
+
+
+Include only words or phrases that occur in the text itself.
+
+
+Remove exact duplicates.
+
+
+Output format:
+ Return only a valid JSON object in the following structure:
+psychological_words_json = """
+ {
+  "psychological_words": [ . . .
+  ]
+}
+"""
