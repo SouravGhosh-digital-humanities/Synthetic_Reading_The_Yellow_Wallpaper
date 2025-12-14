@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset or methodology, please cite it as below."
+type: dataset
+title: "The Yellow Wallpaper: Hermeneutically Vectored JSON Annotations"
+authors:
+  - family-names: Ghosh
+    given-names: Sourav
+    orcid: https://orcid.org/0000-0001-7812-5506
+date-released: 2025-12-14
+version: 1.0.0
+license: CC-BY-4.0
+url: "https://github.com/SouravGhosh-digital-humanities/Synthetic_Reading_The_Yellow_Wallpaper"
+  
+abstract: >
+  This repository contains hermeneutically guided JSON annotations for Charlotte Perkins Gilman’s "The Yellow Wallpaper" (1892). Developed within a post-positivist Digital Humanities framework, the dataset treats data as capta, foregrounds interpretation prior to computation, and documents AI-assisted, theory-driven methodological decisions.
+keywords:
+  - Digital Humanities
+  - Literary Studies
+  - Hermeneutics
+  - Post-positivism
+  - AI-assisted Interpretation
